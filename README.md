@@ -1,2 +1,2 @@
 # Fluorescence_BSVC
-Correcting for the size variation in fluorescent beads to accurately locate the position of surface where they rest
+Fluorescent beads are widely used to mark the position of various objects. In order to recover the height of the surface where fluorescent bead rests, one typically finds the 3D position of the bead and substracts its radius from it. Some beads (e.g. typical magnetic fluorescent beads) have a wide variation in their size which leads to imprecision. Here I use deep learning with Keras sequential model to correct for bead size variation to locate surface position more precisely.
